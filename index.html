@@ -38,6 +38,30 @@
 			text-decoration: underline;
 		}
 
+		nav ul {
+			display: none;
+			position: absolute;
+			background-color: #333;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		nav li:hover ul {
+			display: block;
+		}
+
+		nav ul li {
+			display: block;
+		}
+
+		nav ul li a {
+			color: #fff;
+			padding: 10px;
+			text-decoration: none;
+			display: block;
+		}
+
 		main {
 			margin-top: 50px;
 			padding: 20px;
@@ -76,8 +100,18 @@
 	<header>
 		<nav>
 			<a href="#">Home</a>
-			<a href="#">About Us</a>
-			<a href="#">Services</a>
+			<li><a href="#">About Us</a>
+				<ul>
+					<li><a href="#">Our Team</a></li>
+					<li><a href="#">Our Mission</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Services</a>
+				<ul>
+					<li><a href="#">Web Design</a></li>
+					<li><a href="#">SEO</a></li>
+				</ul>
+			</li>
 			<a href="#">Contact Us</a>
 		</nav>
 	</header>
@@ -85,11 +119,11 @@
 		<h1>Welcome to EnergyWise</h1>
 		<section>
 			<h2>Our Mission </h2>
-			<p>Get started to charge your EVs from your finger tips.</p>
+			<p>Get started to charge your EVs from your finger tips. </p>
 		</section>
 		<section>
-			<h2>Chargers for your EV? </h2>
-			<p>Never get lost, always the best!</p>
+			<h2>Chargers for your EV?</h2>
+			<p>Never get lost, always the best! </p>
 		</section>
 	</main>
 	<footer>
