@@ -2,144 +2,102 @@
 <html>
 <head>
 	<title>EnergyWise</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOUzV/xDSc5paWz5UrCjaJl+0tVZGK8WQQ7VXvxFmzj0VzD" crossorigin="anonymous">
 	<style>
-		/* Customize the styles as desired */
 		body {
-			background-color: #f8f9fa;
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
 		}
-		.container {
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 50px 20px;
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1;
 		}
-		.btn-primary {
-			background-color: #28a745;
-			border-color: #28a745;
+
+		nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		nav a {
+			color: #fff;
+			margin-left: 20px;
+			font-size: 18px;
+			text-decoration: none;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		main {
+			margin-top: 50px;
+			padding: 20px;
+		}
+
+		section {
+			padding: 20px;
+			background-color: #f0f0f0;
+			margin-top: 20px;
+		}
+
+		section h2 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+
+		.contact-us {
+			font-size: 18px;
+			margin-top: 50px;
 		}
 	</style>
 </head>
 <body>
-	<div class="container">
-		<h1 class="text-center mb-4">Welcome to Energywise!</h1>
-		<p class="lead mb-4">WGet started to charge your EVs from your finger tips. </p>
-		<div class="text-center">
-			<a href="#" class="btn btn-lg btn-primary">Never get lost, always the best!</a>
+	<header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">Services</a>
+			<a href="#">Contact Us</a>
+		</nav>
+	</header>
+	<main>
+		<h1>Welcome to My Web Page</h1>
+		<section>
+			<h2>Section 1</h2>
+			<p>Get started to charge your EVs from your finger tips.</p>
+		</section>
+		<section>
+			<h2>Section 2</h2>
+			<p>Never get lost, always the best!</p>
+		</section>
+	</main>
+	<footer>
+		<div class="contact-us">
+			<h3>Contact Us</h3>
+			<p>Email: info@energywise.com</p>
+			<p>Phone: 555-1234</p>
 		</div>
-	</div>
-	
-	<!--Main Navigation-->
-
-<header>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark primary-color">
-  <div class="container">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" rel="noopener" target="_blank" href="#">Navbar</a>
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" rel="noopener" target="_blank" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" rel="noopener" target="_blank" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" rel="noopener" target="_blank" href="#">Pricing</a>
-        </li>
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" rel="noopener" target="_blank" href="#">Action</a>
-            <a class="dropdown-item" rel="noopener" target="_blank" href="#">Another action</a>
-            <a class="dropdown-item" rel="noopener" target="_blank" href="#">Something else here</a>
-          </div>
-        </li>
-      </ul>
-      <!-- Links -->
-      <form class="form-inline">
-        <div class="md-form my-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        </div>
-      </form>
-    </div>
-    <!-- Collapsible content -->
-  </div>
-</nav>
-<!--/.Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
-</header>
-
-<!--Main Navigation-->
-
-<!--Main layout-->
-
-<main>
-
-</main>
-
-<!--Main layout-->
-
-<!--Footer-->
-
-<footer>
-
-</footer>
-
-<!--Footer-->
+	</footer>
 </body>
-
-	<style>
-		/* Customize the styles as desired */
-		body {
-			background-color: #f8f9fa;
-			font-family: 'Roboto', sans-serif;
-			color: #333;
-			margin: 0;
-			padding: 0;
-		}
-		.container {
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 50px 20px;
-			text-align: center;
-		}
-		.btn-primary {
-			background-color: #28a745;
-			border-color: #28a745;
-		}
-		.section-heading {
-			font-size: 36px;
-			font-weight: 700;
-			margin-bottom: 50px;
-		}
-		.section-subheading {
-			font-size: 20px;
-			font-weight: 500;
-			margin-bottom: 50px;
-		}
-		.feature-icon {
-			font-size: 48px;
-			margin-bottom: 20px;
-		}
-		.feature-heading {
-			font-size: 24px;
-			font-weight: 500;
-			margin-bottom: 20px;
-		}
-		.feature-text {
-			font-size: 16px;
-			line-height: 1.5;
-
 </html>
